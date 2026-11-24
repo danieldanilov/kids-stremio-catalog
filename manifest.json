@@ -2,18 +2,40 @@
  "id": "community.kids-corner.catalog",
  "version": "1.0.20261124",
  "name": "Kids Corner",
- "description": "Hand-picked kids shows, films, stories and channels, plus streaming titles filtered for calm, story-driven content.",
+ "description": "Hand-picked kids shows, films, stories, YouTube channels and audio stories, plus streaming titles filtered for calm, story-driven content.",
  "resources": [
-  "catalog"
+  "catalog",
+  {
+   "name": "meta",
+   "types": [
+    "Audio",
+    "YouTube"
+   ],
+   "idPrefixes": [
+    "kc."
+   ]
+  },
+  {
+   "name": "stream",
+   "types": [
+    "Audio",
+    "YouTube"
+   ],
+   "idPrefixes": [
+    "kc."
+   ]
+  }
  ],
  "types": [
-  "channel",
+  "Audio",
+  "YouTube",
   "movie",
   "series"
  ],
  "idPrefixes": [
   "tt",
-  "yt_id:"
+  "yt_id:",
+  "kc."
  ],
  "catalogs": [
   {
@@ -40,6 +62,16 @@
    "type": "movie",
    "id": "stories",
    "name": "Stories & short films",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "series",
+   "id": "bedtime",
+   "name": "Bedtime shows",
    "extra": [
     {
      "name": "skip"
@@ -87,16 +119,6 @@
    ]
   },
   {
-   "type": "channel",
-   "id": "youtube",
-   "name": "YouTube",
-   "extra": [
-    {
-     "name": "skip"
-    }
-   ]
-  },
-  {
    "type": "series",
    "id": "streaming",
    "name": "More shows from streaming",
@@ -110,6 +132,96 @@
    "type": "movie",
    "id": "streaming",
    "name": "More movies from streaming",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "bedtime",
+   "name": "Bedtime stories",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "read-aloud",
+   "name": "Picture books read aloud",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "shows",
+   "name": "Shows on YouTube",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "learning",
+   "name": "Learning",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "songs",
+   "name": "Songs & movement",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "russian",
+   "name": "По-русски",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "YouTube",
+   "id": "hebrew",
+   "name": "בעברית",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Audio",
+   "id": "bedtime",
+   "name": "Bedtime stories",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Audio",
+   "id": "stories",
+   "name": "Stories",
    "extra": [
     {
      "name": "skip"

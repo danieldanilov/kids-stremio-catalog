@@ -1,0 +1,103 @@
+{
+ "id": "community.kids-corner.catalog",
+ "version": "1.0.20261124",
+ "name": "Kids Corner",
+ "description": "Hand-picked kids shows, films, stories and channels, plus streaming titles filtered for calm, story-driven content.",
+ "resources": [
+  "catalog"
+ ],
+ "types": [
+  "channel",
+  "movie",
+  "series"
+ ],
+ "idPrefixes": [
+  "tt",
+  "yt_id:"
+ ],
+ "catalogs": [
+  {
+   "type": "series",
+   "id": "shows",
+   "name": "Shows",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "movie",
+   "id": "movies",
+   "name": "Movies",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "movie",
+   "id": "stories",
+   "name": "Stories & short films",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "series",
+   "id": "ru-series",
+   "name": "Русские мультсериалы",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "movie",
+   "id": "ru-movies",
+   "name": "Русские мультфильмы",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "series",
+   "id": "british",
+   "name": "British shows",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "movie",
+   "id": "british",
+   "name": "British films",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "channel",
+   "id": "youtube",
+   "name": "YouTube",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  }
+ ],
+ "behaviorHints": {
+  "configurable": false
+ }
+}

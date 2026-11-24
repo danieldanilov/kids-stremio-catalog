@@ -95,6 +95,26 @@
      "name": "skip"
     }
    ]
+  },
+  {
+   "type": "series",
+   "id": "streaming",
+   "name": "More shows from streaming",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "movie",
+   "id": "streaming",
+   "name": "More movies from streaming",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
   }
  ],
  "behaviorHints": {

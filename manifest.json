@@ -1,6 +1,6 @@
 {
  "id": "community.kids-corner.catalog",
- "version": "1.0.20261124",
+ "version": "1.0.20261125",
  "name": "Kids Corner",
  "description": "Hand-picked kids shows, films, stories, YouTube channels and audio stories, plus streaming titles filtered for calm, story-driven content.",
  "resources": [
@@ -9,6 +9,7 @@
    "name": "meta",
    "types": [
     "Audio",
+    "Music",
     "YouTube"
    ],
    "idPrefixes": [
@@ -19,6 +20,7 @@
    "name": "stream",
    "types": [
     "Audio",
+    "Music",
     "YouTube"
    ],
    "idPrefixes": [
@@ -28,6 +30,7 @@
  ],
  "types": [
   "Audio",
+  "Music",
   "YouTube",
   "movie",
   "series"
@@ -222,6 +225,66 @@
    "type": "Audio",
    "id": "stories",
    "name": "Stories",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Music",
+   "id": "music.favourites",
+   "name": "Favourites",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Music",
+   "id": "music.kpop-demon-hunters",
+   "name": "KPop Demon Hunters",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Music",
+   "id": "music.disney",
+   "name": "Disney",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Music",
+   "id": "music.super-simple",
+   "name": "Super Simple Songs & Scratch Garden",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Music",
+   "id": "music.russian",
+   "name": "По-русски",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Music",
+   "id": "music.holidays",
+   "name": "Christmas & New Year",
    "extra": [
     {
      "name": "skip"

@@ -9,7 +9,9 @@
    "name": "meta",
    "types": [
     "Audio",
+    "Drawing",
     "Music",
+    "Piano",
     "YouTube"
    ],
    "idPrefixes": [
@@ -20,7 +22,9 @@
    "name": "stream",
    "types": [
     "Audio",
+    "Drawing",
     "Music",
+    "Piano",
     "YouTube"
    ],
    "idPrefixes": [
@@ -30,7 +34,9 @@
  ],
  "types": [
   "Audio",
+  "Drawing",
   "Music",
+  "Piano",
   "YouTube",
   "movie",
   "series"
@@ -285,6 +291,196 @@
    "type": "Music",
    "id": "music.holidays",
    "name": "Christmas & New Year",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.first-shapes",
+   "name": "First lines and shapes",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.easy-animals",
+   "name": "Easy animals",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.things",
+   "name": "Food, flowers and things that go",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.letters",
+   "name": "Draw with letters and numbers",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.characters",
+   "name": "Characters she knows",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.holidays",
+   "name": "Christmas and New Year",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.ru-first",
+   "name": "По-русски: first drawings",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Drawing",
+   "id": "draw.ru-animals",
+   "name": "По-русски: animals and cars",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.first-steps",
+   "name": "Meet the keyboard",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.sing-notes",
+   "name": "Sing the notes",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.first-notes",
+   "name": "First notes",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.high-low-loud-soft",
+   "name": "High and low, loud and soft",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.rhythm",
+   "name": "Rhythm and clapping",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.first-songs",
+   "name": "First songs",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.ru-first-steps",
+   "name": "In Russian: meet the music",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.ru-notes",
+   "name": "In Russian: first notes",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.ru-rhythm",
+   "name": "In Russian: rhythm",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.ru-first-songs",
+   "name": "In Russian: first songs",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "Piano",
+   "id": "piano.ru-cartoons",
+   "name": "Cartoons about music",
    "extra": [
     {
      "name": "skip"
